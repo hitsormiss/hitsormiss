@@ -1,0 +1,485 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.link-style {
+  text-decoration: none;
+  color: #000000;
+}
+
+.link-style:hover {
+  text-decoration: none;
+}
+
+.footer-link-style:hover {
+  text-decoration: none;
+}
+
+/* Nav Style */
+
+.logo-icon {
+  height: 55px;
+  width: 55px;
+}
+
+.nav-link {
+  color: #000000 !important;
+  font-weight: bold !important;
+}
+
+.active {
+  color: #ffffff !important;
+  background-color: #20b2aa !important;
+}
+
+.fixed-top.scrolled {
+  background-color: #000000 !important;
+  transition: background-color 200ms linear;
+}
+
+.fixed-top.scrolled .nav-link {
+  color: #ffffff !important;
+}
+
+.fixed-top.scrolled .active {
+  background-color: #9acd32 !important;
+}
+
+.fixed-top.scrolled .navbar-toggler {
+  background-color: #ffffff !important;
+}
+
+/* Home style */
+
+.home-section {
+  overflow-x: hidden;
+  margin-top: 81px;
+}
+
+video {
+  object-fit: fill;
+}
+
+.embed-responsive {
+  height: calc(100vh - 81px);
+}
+
+.home-card {
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+.header-content {
+  position: absolute;
+  background-color: #000000;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  opacity: 0.55;
+  z-index: 1;
+}
+
+.head-hr {
+  border-top: 7px solid #9acd32;
+  border-radius: 5px;
+  width: 20%;
+  margin: 20px auto 0;
+}
+
+.home-overlay {
+  z-index: 2;
+}
+
+.logo-img {
+  height: 210x;
+  width: 420px;
+}
+
+.video-header {
+  padding-top: 30px;
+}
+
+.home-img {
+  width: 300px;
+  height: 300px;
+}
+
+.xd-img1,
+.xd-img2,
+.xd-img3 {
+  width: 300px;
+  height: 300px;
+}
+
+.step-hr {
+  border-top: 4px solid #9acd32;
+  border-radius: 5px;
+  width: 22%;
+  margin: 10px auto 0;
+}
+
+.step-btn {
+  background-color: #9acd32;
+  font-weight: bold;
+}
+.step-btn:hover {
+  box-shadow: 0px 0px 7px 2px #000000;
+}
+
+.app-img {
+  width: 450px;
+  height: 450px;
+}
+
+.app-ul {
+  list-style: none;
+}
+
+.app-li::before {
+  content: '\2022';
+  color: #9acd32;
+  font-weight: bold;
+  font-size: 1.3em;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+/* Dartslive */
+
+.dartslive-section {
+  overflow-x: hidden;
+  margin-top: 81px;
+}
+
+.details-section {
+  background-color: #eeeeee;
+}
+
+.detail-info-img {
+  width: 100%;
+  height: 75%;
+}
+
+/* Events/News */
+
+.events-news-section {
+  min-height: 100vh;
+  overflow-x: hidden;
+  margin-top: 81px;
+  background: url(./assets/Optimized-event-bg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Photo Album */
+
+.gallery-section {
+  min-height: 100vh;
+  overflow-x: hidden;
+  margin-top: 81px;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 100%;
+}
+/* Sponsor players */
+
+.sponsor-section {
+  overflow-x: hidden;
+  margin-top: 81px;
+}
+
+.player-img {
+  width: 21.5rem;
+  height: 25rem;
+  box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.player-name,
+.sponsor-name {
+  font-size: 1.8rem;
+}
+
+.table-head {
+  font-size: 1.2rem;
+}
+
+.table-body {
+  font-size: 1rem;
+}
+
+.dart-brand-img {
+  width: 10rem;
+  height: 10rem;
+  box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* .dart-img {
+  width: 12rem;
+  height: 15rem;
+} */
+
+.rating {
+  font-size: 1.1rem;
+}
+
+.player-divider {
+  width: 88%;
+  margin: 4px auto 0;
+}
+/* Location */
+
+body.location-body {
+  background-color: #eeeeee;
+}
+
+.location-section {
+  overflow-x: hidden;
+  margin-top: 81px;
+}
+
+/* Products */
+
+.product-brand-img {
+  width: 24rem;
+  height: 27rem;
+  box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* .button-container {
+  bottom: 2rem;
+} */
+
+.product-img {
+  width: 10rem;
+  height: 10rem;
+  box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.1);
+  transition-property: width, height;
+}
+
+/* Contact */
+
+.contact-section {
+  margin-top: 81px;
+  overflow-x: hidden;
+}
+
+.contact-card {
+  border: none;
+}
+
+.contact-img {
+  height: 50vh;
+  width: 100%;
+}
+
+.contact-img-overlay {
+  background-color: black;
+  position: absolute;
+  height: 50vh;
+  width: 100%;
+  z-index: 1;
+  opacity: 0.75;
+}
+
+.contact-overlay {
+  z-index: 2;
+}
+
+.contact-hr {
+  border-top: 7px solid #9acd32;
+  border-radius: 5px;
+  width: 10%;
+  margin: 2px auto 0;
+}
+
+.contact-overlay p {
+  font-size: 1.3rem;
+}
+
+/* Footer */
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  padding: 1.2rem;
+  background-color: #101010;
+  font-size: 1rem;
+}
+
+.footer-logo-icon {
+  height: 90px;
+  width: 180px;
+}
+
+/* For small devies */
+
+/* Tablet Style */
+
+@media (min-width: 576px) and (max-width: 768px) {
+  video {
+    object-fit: contain;
+  }
+
+  .embed-responsive {
+    height: 100%;
+  }
+
+  .logo-img {
+    height: 200px;
+    width: 400px;
+  }
+
+  .video-header {
+    font-size: 1.4rem;
+    padding-top: 15px;
+  }
+
+  .app-img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .header-content {
+    height: 100%;
+  }
+
+  .player-img {
+    width: 18rem;
+    height: 22rem;
+  }
+
+  .player-name,
+  .sponsor-name {
+    font-size: 1.5rem;
+  }
+
+  .table-head {
+    font-size: 1rem;
+  }
+
+  .table-body {
+    font-size: 0.8rem;
+  }
+
+  .dart-brand-img {
+    width: 8rem;
+    height: 8rem;
+  }
+  .product-brand-img {
+    width: 18rem;
+    height: 21rem;
+  }
+
+  .product-img {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  /* .dart-img {
+    width: 8rem;
+    height: 8rem;
+  } */
+}
+
+/* Mobile Style */
+
+@media (max-width: 575.98px) {
+  .navbar-collapse ul {
+    height: 100vh;
+    display: block !important;
+  }
+
+  video {
+    object-fit: contain;
+  }
+
+  .embed-responsive {
+    height: 100%;
+  }
+
+  .logo-img {
+    height: 70px;
+    width: 140px;
+  }
+
+  .video-header {
+    font-size: 0.85rem;
+    padding-top: 15px;
+  }
+
+  .header-content {
+    height: 100%;
+  }
+
+  .head-hr {
+    margin: 7px auto 0;
+  }
+
+  .app-img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .about-head {
+    font-size: 1.2rem;
+  }
+
+  .about-sub-head {
+    font-size: 1rem;
+  }
+
+  .about-detail {
+    font-size: 0.9rem;
+  }
+
+  .contact-hr {
+    width: 30%;
+  }
+
+  .contact-overlay p {
+    font-size: 1rem;
+  }
+
+  .player-img {
+    width: 21rem;
+    height: 26rem;
+  }
+
+  .sponsor-name {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .dart-brand-img {
+    width: 7.5rem;
+    height: 7.5rem;
+  }
+
+  .pics {
+    text-align: center;
+  }
+
+  .product-brand-img {
+    width: 18rem;
+    height: 21rem;
+  }
+
+  .product-img {
+    width: 14rem;
+    height: 14rem;
+  }
+
+  /* .dart-img {
+    width: 6.5rem;
+    height: 6.5rem;
+  } */
+
+  .footer {
+    font-size: 0.8rem;
+  }
+}
